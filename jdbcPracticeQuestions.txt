@@ -1,0 +1,45 @@
+Level 1: Basic JDBC
+1. Connect Java application to MySQL database.  done
+2. Create an employee table using JDBC.         doness
+3. Insert a single employee record using Statement.done
+4. Insert multiple employee records.             dones
+5. Retrieve all employee records.               done
+6. Retrieve an employee using employee ID.      done
+7. Display employee records using ResultSet.	done
+Level 2: CRUD Operations
+8. Insert employee details using PreparedStatement.
+9. Update employee salary using employee ID.
+10. Delete an employee using employee ID.
+11. Search employees by name.
+12. Retrieve employees whose salary is greater than ₹30,000.
+13. Retrieve employees from a particular department.
+14. Display employees in ascending order of salary.
+15. Display the employee with the highest salary.
+Level 3: JDBC + OOP + Collections
+16. Create an Employee class with fields, constructors, getters and setters.
+17. Retrieve one employee and store the details in an Employee object using a parameterized constructor.
+18. Retrieve all employees and store them in an ArrayList.
+19. Display all employees using an enhanced for loop.
+20. Search an employee from an ArrayList using employee ID.
+21. Calculate the average salary of employees using ArrayList.
+22. Count the number of employees in each department.
+Level 4: Advanced JDBC
+23. Perform batch insertion using addBatch() and executeBatch().
+24. Implement transaction management using commit().
+25. Implement rollback() when a transaction fails.
+26. Transfer money between two bank accounts using JDBC.
+27. Create a reusable DatabaseConnection class.
+28. Implement CRUD operations using separate DAO classes.
+Level 5: Mini Projects
+29. Employee Management System
+    - Add employee
+    - View all employees
+    - Search employee
+    - Update employee
+    - Delete employee
+30. Bank Management System
+    - Create account
+    - Deposit money
+    - Withdraw money
+    - Transfer money
+    - Check account balance
