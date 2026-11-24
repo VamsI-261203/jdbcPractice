@@ -7,14 +7,14 @@ Level 1: Basic JDBC
 6. Retrieve an employee using employee ID.      done
 7. Display employee records using ResultSet.	done
 Level 2: CRUD Operations
-8. Insert employee details using PreparedStatement.
-9. Update employee salary using employee ID.
-10. Delete an employee using employee ID.
-11. Search employees by name.
-12. Retrieve employees whose salary is greater than ₹30,000.
-13. Retrieve employees from a particular department.
-14. Display employees in ascending order of salary.
-15. Display the employee with the highest salary.
+8. Insert employee details using PreparedStatement. done
+9. Update employee salary using employee ID.	    done
+10. Delete an employee using employee ID.           done
+11. Search employees by name.                       done
+12. Retrieve employees whose salary is greater than ₹30,000.  done  
+13. Retrieve employees from a particular department.		doness
+14. Display employees in ascending order of salary.		done
+15. Display the employee with the highest salary.		done
 Level 3: JDBC + OOP + Collections
 16. Create an Employee class with fields, constructors, getters and setters.
 17. Retrieve one employee and store the details in an Employee object using a parameterized constructor.
