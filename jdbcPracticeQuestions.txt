@@ -15,9 +15,9 @@ Level 2: CRUD Operations
 13. Retrieve employees from a particular department.		doness
 14. Display employees in ascending order of salary.		done
 15. Display the employee with the highest salary.		done
-Level 3: JDBC + OOP + Collections
-16. Create an Employee class with fields, constructors, getters and setters.
-17. Retrieve one employee and store the details in an Employee object using a parameterized constructor.
+Level 3: JDBC + OOP + Collectionse
+16. Create an Employee class with fields, constructors, getters and setters.   done
+17. Retrieve one employee and store the details in an Employee object using a parameterized constructor. done
 18. Retrieve all employees and store them in an ArrayList.
 19. Display all employees using an enhanced for loop.
 20. Search an employee from an ArrayList using employee ID.

@@ -1,0 +1,63 @@
+class A{
+	private int id;
+	private String name;
+	private double sal;
+	A(int id,String name,double sal){
+		this.id=id;
+		this.name=name;
+		this.sal=sal;
+	}
+	void setId(int id){
+		this.id=id;
+		}
+	void setName(String name){
+		this.name=name;
+		}
+	void setSal(double sal){
+		this.sal=sal;
+	}
+	public int getId(){
+		return id;
+		}
+	public String getName(){
+		return name;
+		}
+	public double getSal(){
+		return sal;
+	}
+}
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+class B{
+	public static void main(String[] args){
+		try{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/vamsi","root","Vamsi123@");
+			Statement st=con.createStatement();
+			ResultSet rs=st.executeQuery("select * from employee");
+		
+			while(rs.next()){
+				A a=new A(rs.getInt("id"),rs.getString("name"),rs.getDouble("sal"));
+				System.out.println("Employee details");
+				System.out.println("ID	|	NAME	|	SAL");
+				System.out.println(e.getID()+"	"+e.getName()+"	"+e.getSal());
+			}
+	}
+	catch(SQLException | ClassNotFoundException e){
+		e.printStackTrace();
+	}
+	}
+	}
+
+
+
+
+
+
+
+
+		
