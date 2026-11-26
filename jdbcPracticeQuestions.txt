@@ -18,11 +18,11 @@ Level 2: CRUD Operations
 Level 3: JDBC + OOP + Collectionse
 16. Create an Employee class with fields, constructors, getters and setters.   done
 17. Retrieve one employee and store the details in an Employee object using a parameterized constructor. done
-18. Retrieve all employees and store them in an ArrayList.
-19. Display all employees using an enhanced for loop.
-20. Search an employee from an ArrayList using employee ID.
-21. Calculate the average salary of employees using ArrayList.
-22. Count the number of employees in each department.
+18. Retrieve all employees and store them in an ArrayList.  		done
+19. Display all employees using an enhanced for loop.  			done
+20. Search an employee from an ArrayList using employee ID.		done
+21. Calculate the average salary of employees using ArrayList.		done
+22. Count the number of employees in each department.			
 Level 4: Advanced JDBC
 23. Perform batch insertion using addBatch() and executeBatch().
 24. Implement transaction management using commit().
